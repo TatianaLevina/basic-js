@@ -58,8 +58,9 @@ function transform(arr) {
       }
     }
     return duplicate;
-  } else return arr;
-
+  } else {
+    return arr;
+  }
 }
 
 module.exports = {
